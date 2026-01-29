@@ -60,6 +60,7 @@ function Dashboard() {
   return (
     <>
       <div className="filter">
+        <label className="category-label">Select NEWS Category ➤</label>
         <select className="category-selector" onChange={handleCategoryChange} value={category}>
           <option value="general">General</option>
           <option value="world">World</option>

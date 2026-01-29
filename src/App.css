@@ -43,7 +43,6 @@ nav {
 
 nav a {
   margin-left: 20px;
-
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -67,22 +66,36 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .category {
   margin: 5px 0;
 }
 
+.category-label {
+  font-weight: 450;
+  margin-right: 10px;
+  font-size: 18px;
+  color: rgb(75, 75, 75);
+}
+
 .category-selector {
-  padding: 10px 30px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: white;
+  width: 300px;
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background-color: #fff;
   cursor: pointer;
   appearance: none;
-  position: relative;
-  font-size: 16px;
-  color: #333;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 18px;
 }
 
 .category-selector:hover {
