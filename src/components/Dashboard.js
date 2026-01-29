@@ -21,7 +21,7 @@ function Dashboard() {
     setError(null);
 
     try {
-      const response = await fetch(`https://gnews.io/api/v4/top-headlines?category=${category}&lang=en&country=in&max=100&apikey=210842294c360991fd6070417be2a679`);
+      const response = await fetch(`https://gnews.io/api/v4/top-headlines?category=${category}&lang=en&country=in&max=100&apikey=4a6b4379ad3b4fdb4741f7137dd53ca0`);
       const data = await response.json();
 
       if (data.articles && Array.isArray(data.articles)) {
